@@ -14,13 +14,19 @@ body {
 .nav-name {
 	font-family: 'Baloo Thambi', cursive;
 }
-#brand-logo{
+#brand-logo {
 	width: fit-content;
 }
 #logo-img {
 	margin-right: 0px;
 	float: inherit;
 }
+#bob {
+	min-height: 25px;
+	min-width: 25px;
+	z-index: 997;
+}
+
 
 /* Side-bar nav */
 
