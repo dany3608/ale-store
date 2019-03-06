@@ -20,11 +20,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems);
   });
-
-(function($){
-  $(function(){
-
-    $('.sidenav').sidenav();
-
-  }); // end of document ready
-})(jQuery);
