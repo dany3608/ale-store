@@ -1,0 +1,20 @@
+
+-# Navbar & sidebar
+.nav-container-stuff
+
+	-# Top-head of navbar
+	%nav
+		.nav-wrapper
+			%a.brand-logo.center.container
+				%span.nav-name
+					Alexandra
+					%i.fas.fa-cut#logo-img
+					Nemet
+			%a.sidenav-trigger{'data-target': 'slide-out'}
+				%i.fas.fa-bars
+
+	-# Slide-out navbar
+	%ul#slide-out.sidenav
+		%li Programari
+		.divider
+		%li Contact

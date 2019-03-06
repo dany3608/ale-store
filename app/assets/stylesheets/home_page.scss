@@ -1,0 +1,35 @@
+/* Initialize web-page */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+/* Top nav-bar */
+
+.nav-name {
+	font-family: 'Baloo Thambi', cursive;
+}
+#logo-img {
+	margin-right: 0px;
+	float: inherit;
+}
+
+/* Side-bar nav */
+
+/* Parallax images */
+.parallax-container {
+  height: 300px;
+}
+.parx-img {
+	height: 600px;
+}
+
+/* About me */
+.card-panel {
+	margin: 0;
+}
